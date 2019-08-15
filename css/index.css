@@ -164,6 +164,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+button {
+  background-color: #17A2B8;
+  padding: 1vh 2.5vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #FFEBCD;
+  border-radius: 15px;
+}
 .container {
   max-width: 800px;
   width: 100%;
@@ -193,6 +202,10 @@ img {
   font-size: 1.7rem;
   padding: 0 1vw;
   text-decoration: none;
+}
+.home .intro {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 1vh;
 }
 .home .intro h2 {
   padding-top: 3vh;
