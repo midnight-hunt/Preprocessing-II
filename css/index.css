@@ -170,15 +170,32 @@ img {
   margin: 0 auto;
 }
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   border-bottom: 2px dashed #C0C0C0;
-  background: #FFEBCD;
+  background: #ffffff;
   padding: 20px;
+}
+.header h1 {
+  padding-right: 10vw;
+}
+.header .navi {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header .navi a {
+  flex-wrap: wrap;
   color: #212529;
-  font-size: 3rem;
+  font-size: 1.7rem;
+  padding: 0 1vw;
+  text-decoration: none;
+}
+.home .intro h2 {
+  padding-top: 3vh;
 }
 .home .content-section {
   margin: 30px 0;
