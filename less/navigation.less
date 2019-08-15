@@ -1,1 +1,25 @@
 // Navigation Styles here
+
+.header {
+    .display-flex(center, center);
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 2px dashed @navigation-border;
+    background: lighten(@sandy-beach, 10%);
+    padding: 20px;
+    
+    h1 {
+        padding-right: 10vw;
+    }
+    .navi{
+        .display-flex(space-between, center);
+        a{
+            
+            flex-wrap: wrap;
+            color: @shark;
+            font-size: 1.7rem;
+            padding: 0 1vw;
+            text-decoration: none;
+        }
+    }
+}
